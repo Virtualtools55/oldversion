@@ -25,7 +25,7 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
 export default function App() {
   return (
-    <><div className="mx-auto w-screen bg-red-500">
+    <><div className="mx-auto w-screen ">
       <Swiper
         spaceBetween={0}
         centeredSlides={true}
