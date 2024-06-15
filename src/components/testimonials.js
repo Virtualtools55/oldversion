@@ -1,10 +1,10 @@
 import Image from "next/image"
 
-import reviewbywomen1 from "./../../../public/reviewbywomen1.png";
-import reviewbygirl1 from "./../../../public/reviewbygirl1.png";
-import reviewbygirl2 from "./../../../public/reviewbygirl2.png";
-import reviewbyman1 from "./../../../public/reviewbyman1.png";
-import reviewbyman2 from "./../../../public/reviewbyman2.png";
+import reviewbywomen1 from "./../../public/reviewbywomen1.png";
+import reviewbygirl1 from "./../../public/reviewbygirl1.png";
+import reviewbygirl2 from "./../../public/reviewbygirl2.png";
+import reviewbyman1 from "./../../public/reviewbyman1.png";
+import reviewbyman2 from "./../../public/reviewbyman2.png";
 export default function TestiMonials(){
 
     return(

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import imotionBanner from "./../../../public/emotionbanner.jpg";
+import imotionBanner from "./../../public/emotionbanner.jpg";
 
 export default function IntroBigBanner(){
 

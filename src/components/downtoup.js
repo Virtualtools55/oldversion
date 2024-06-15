@@ -7,9 +7,9 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import Image from 'next/image';
-import upone from "./../../../public/upemotionone.jpg";
-import uptwo from "./../../../public/upemotiontwo.jpg";
-import upthree from "./../../../public/upemotionthree.jpg";
+import upone from "./../../public/upemotionone.jpg";
+import uptwo from "./../../public/upemotiontwo.jpg";
+import upthree from "./../../public/upemotionthree.jpg";
 
 
 // import required modules

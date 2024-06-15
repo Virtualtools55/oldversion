@@ -25,7 +25,7 @@ import laddyreview1 from "./../../public/laddyreview1.png"
 // import required modules
 import { Keyboard, Scrollbar, Navigation, Pagination,Autoplay } from 'swiper/modules';
 
-export default function App() {
+export default function Ourmissionslider() {
   return (
     <>
       <Swiper
@@ -61,7 +61,7 @@ export default function App() {
         <div class="min-w-screen  bg-gray-200 m-auto flex max items-center justify-center px-5 py-5">
     <div class="w-full mx-auto rounded-lg bg-white shadow-lg px-5 pt-5 pb-10 text-gray-800" >
         <div class="w-auto pt-1 pb-5">
-            <div class="overflow-hidden rounded-full w-20 h-20  mx-auto shadow-lg relative">
+            <div class="overflow-hidden rounded-full w-20  h-20  mx-auto shadow-lg relative">
                 <Image src={boyreview1} alt="rahul dubay" fill={true}/>
             </div>
         </div>

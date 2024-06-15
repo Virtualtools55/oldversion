@@ -1,7 +1,7 @@
 "use client"
 import Image from "next/image";
-import farmer from "./../../../public/farmer.jpg";
-import financial from "./../../../public/financialhelp.jpg";
+import farmer from "./../../public/farmer.jpg";
+import financial from "./../../public/financialhelp.jpg";
 
 
 
