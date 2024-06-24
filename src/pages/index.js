@@ -7,6 +7,7 @@ import FourBoxSection from "@/components/fourBoxSection";
 import DownToUp from "@/components/downtoup";
 import HeroWithImage from "@/components/heroWithImage";
 import TestiMonials from "@/components/testimonials";
+import UploadDisplay from "@/pages/posts";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,6 +18,7 @@ export default function Home() {
         <App/>
      <IntroContainer/>
      <IntroBigBanner/>
+     <UploadDisplay/>
      <FourBoxSection/>
      <DownToUp/>
      <HeroWithImage/>
