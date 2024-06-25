@@ -3,6 +3,7 @@ import axios from 'axios';
 import { parseCookies } from 'nookies';
 import jwt from 'jsonwebtoken';
 import CloudinaryRoot from '@/components/cloudinaryroot';
+import CloudinarysliderManager from '@/components/slideruploaddelete';
 // import { useRouter } from 'next/navigation';
 // import cookie from 'cookie';
 
@@ -85,7 +86,8 @@ export default function Home() {
     <>
 
     <CloudinaryRoot/>
-    <div className="container mx-auto p-4 w-[60%] mt-6 bg-[#27AB61] rounded-lg">
+    <CloudinarysliderManager/>
+    <div className="container mx-auto p-4 w-[60%] mt-6 bg-[#27AB61] rounded-lg max-md:w-[95%]">
       <h1 className="text-4xl font-bold mb-6">Create a New Blog Post</h1>
       <form onSubmit={handleSubmit} className="space-y-4">
         <div>

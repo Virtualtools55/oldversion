@@ -77,14 +77,14 @@ export default function CloudinaryRoot() {
 
   return (
     <>
-    <div className='bg-[#27AB61]  w-[500px] h-[120px] m-auto mx-auto m-10 rounded-lg'>
+    <div className='bg-[#27AB61]  w-[35%] h-[150px] m-auto mx-auto m-10 rounded-lg max-md:mx-auto max-md:w-[95%] max-md:h-[200px] '>
   <h1 className='m-6 pt-2 font-bold text-xl'>Upload to What We Do gallary</h1>
   <input className='ml-10 m-auto' type="file" onChange={handleFileChange} />
-  <button onClick={handleUpload} className='text-black bg-gradient-to-br from-white to-[#27AB61] px-4 py-2 rounded-lg mr-4 transition-transform  hover:scale-105 font-[420]'>Upload</button>
+  <button onClick={handleUpload} className='text-black bg-gradient-to-br from-white to-[#27AB61] px-4 py-2 rounded-lg mr-4 transition-transform  hover:scale-105 font-[420] max-md:ml-10 max-md:mt-5 '>Upload</button>
   {/* <p>{message}</p> */}
 </div>
 
-      <div className='w-96 mx-auto h-[500px] mt-24 bg-[#27AB61] overflow-y-scroll rounded-lg'>
+      <div className='w-96 mx-auto h-[500px] mt-10 mb-6 bg-[#27AB61] overflow-y-scroll rounded-lg'>
   {images.map((image) => (
     <div key={image.public_id} className='overflow-hidden relative w-80 bg-white m-6 rounded-lg mx-auto  h-96'>
       <img src={image.url} alt="Uploaded" className='mt-2 mx-auto h-52 rounded-lg w-72' />
