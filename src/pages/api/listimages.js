@@ -9,7 +9,7 @@ cloudinary.config({
 export default async function handler(req, res) {
   if (req.method === 'GET') {
     try {
-      const { resources } = await cloudinary.search.expression('folder=""').execute();
+      const { resources } = await cloudinary.search.expression('folder="whatwedogallary"').execute();
 
       res.status(200).json({ success: true, images: resources });
     } catch (error) {
