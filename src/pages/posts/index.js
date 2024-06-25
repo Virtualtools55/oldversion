@@ -21,11 +21,11 @@ export default function BlogPosts() {
   }, []);
 
   return (
-    <div className="container mx-auto p-4">
+    <div className="container mx-auto p-4 ">
       <h2 className="text-2xl font-bold m-8 pt-2 pb-2 pl-5 pr-5 rounded-lg bg-gradient-to-br from-white to-[#27AB61] inline-block">Important News</h2>
-      <div className="grid grid-cols-1 gap-4 mt-4 ">
+      <div className="grid grid-cols-4 max-md:grid-cols-1 gap-4 mt-4 ">
         {posts.map((post) => (
-          <div key={post._id} className=" border p-4 rounded-lg grid  grid-cols-4 gap-2 ">
+          <div key={post._id} className=" border p-4 rounded-lg grid    ">
             <Link href={`/posts/${post._id}`}>
              
                 <img
